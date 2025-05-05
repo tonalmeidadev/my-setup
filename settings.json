@@ -2,13 +2,13 @@
   "breadcrumbs.enabled": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
-    "source.fixAll.eslint": "always",
+    "source.fixAll.eslint": "always"
   },
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.formatOnSave": true,
-  "editor.lineHeight": 26,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": false,
+  "editor.lineHeight": 1.7,
   "editor.renderLineHighlight": "none",
   "editor.semanticHighlighting.enabled": false,
   "editor.stickyScroll.enabled": false,
@@ -22,13 +22,11 @@
   "explorer.confirmPasteNative": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, eslint.config*, prettier*, tsconfig*, jsconfig*, vite*, yarn*, pnpm-lock*, bun.lockb*, nest*, buildspec*, Dockerrun.aws*, server*",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, yarn*, pnpm-lock*, bun.lockb*, nest*",
     "tailwind.config.js": "tailwind.config*, postcss.config*",
-    "README.md": "*.md",
     ".env.local": ".env*",
-    ".env": ".env*",
+    ".env": ".env*"
   },
-  "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "security.workspace.trust.untrustedFiles": "open",
   "symbols.hidesExplorerArrows": false,
@@ -47,7 +45,7 @@
   "terminal.integrated.tabs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 0.25,
+  "window.zoomLevel": 0.5,
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#A6B6E5",
     "editorIndentGuide.background1": "#1b1d2b",
@@ -56,8 +54,6 @@
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "symbols",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "none",
-  // Custom styles using Apc Customize UI++
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
@@ -80,14 +76,9 @@
     ".composite.title > .title-label": "display: none !important",
     ".inline-title-bar:not(.horizontal-activitybar) .monaco-workbench:not(.fullscreen) .activitybar:not(.right) .content": "height: inherit !important; transform: inherit !important"
   },
-  "terminal.integrated.env.osx": {},
-  "editor.inlineSuggest.suppressSuggestions": true,
-  "git.openRepositoryInParentFolders": "never",
-  "markdown-preview-enhanced.breakOnSingleNewLine": false,
-  "chat.commandCenter.enabled": false,
+  "workbench.colorTheme": "Min Dark",
   "workbench.layoutControl.enabled": false,
+  "window.commandCenter": true,
   "workbench.navigationControl.enabled": false,
-  "security.promptForLocalFileProtocolHandling": false,
-  "window.commandCenter": false,
-  "workbench.colorTheme": "Min Dark"
+  "editor.minimap.enabled": true
 }
